@@ -1,0 +1,26 @@
+{
+  "name": "poker",
+  "version": "0.0.1",
+  "description": "building a poker game with modern web technologies",
+  "main": "server.js",
+  "scripts": {
+    "start": "/usr/local/bin/node .",
+    "test-server": "mocha \"./server/tests\" --recursive"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "cassandra-driver": "^3.1.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "jsonwebtoken": "^7.1.6"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3",
+    "mocha-webpack": "^0.5.0",
+    "rewire": "^2.5.1",
+    "webpack": "^1.13.1"
+  }
+}
