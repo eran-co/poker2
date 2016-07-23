@@ -5,7 +5,7 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var routes = require('./server/config/routes');
 const expressJWT = require('express-jwt');
-const cookieParser = require('cookie-parser')
+const cookieParser = require('cookie-parser');
 
 var app = express();
 app.set('port', process.env.PORT || 3000);

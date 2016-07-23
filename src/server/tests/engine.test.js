@@ -1,8 +1,8 @@
 var chai = require('chai');
 var expect = chai.expect; // we are using the "expect" style of Chai
-var rewire = require('rewire');
+//var rewire = require('rewire');
 var Engine = require('./../pokerLogic/engine');
-var innerFunctions = rewire('./../pokerLogic/engine');
+//var innerFunctions = rewire('./../pokerLogic/engine');
 
 describe('Poker engine', function() {
     it('expect engine to have a function findWinners', function() {

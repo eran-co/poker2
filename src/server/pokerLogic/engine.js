@@ -327,7 +327,6 @@ var testEngine = function () {
 //         assert poker([fh]) == [fh]
 //         assert poker([sf2] + 99*[fh]) == [sf2]
 //         assert poker([sf1, sf2, fk, fh]) == [sf1, sf2]
-
     return true;
 };
 
